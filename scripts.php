@@ -7,7 +7,7 @@
 
     if (isset($_POST["submit"])) {
         file_put_contents(
-            "datas/datapribadi.csv",
+            "https://edric-raharjo.alwaysdata.net/api_php/datas/datapribadi.csv",
             $information,
             FILE_APPEND 
         );

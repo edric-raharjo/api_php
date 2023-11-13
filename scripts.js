@@ -32,7 +32,7 @@ function loadData() {
         };
     };
 
-    xhr.open('GET', 'www/api_php/index.php', true);
+    xhr.open('GET', 'https://edric-raharjo.alwaysdata.net/api_php/index.php', true);
     xhr.send();
 
 };

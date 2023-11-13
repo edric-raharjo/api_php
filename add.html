@@ -10,7 +10,7 @@
         <p>Add Data</p>
     </header>
     <article>
-        <form id="myForm" method="post" action="process.php">
+        <form id="myForm" method="post" action="scripts.php">
             <section>
                 <p>First Name</p>
                 <input type="text" name="F_Name" id="F_Name">
@@ -18,24 +18,9 @@
                 <input type="text" name="L_Name" id="L_Name">
                 <p>Occupation</p>
                 <input type="text" name="Occupation" id="Occupation"> <br>
-                <button type="button" onclick="submitForm()">Add Data</button>
+                <button type="submit" name="submit">Add Data</button>
             </section>
         </form>
-
-        <script>
-            function submitForm() {
-                var formData  = $("myForm").serialize();
-
-                $.ajax({
-                    type: "POST",
-                    url: "scripts.php",
-                    data: formData,
-                    success: function(response) {
-                        console.log(response);
-                    }
-                });
-            }
-        </script>
 
         <section>
             <button id="go-back-btn" onclick="GoBack()">Go Back</button>

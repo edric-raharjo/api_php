@@ -3,8 +3,6 @@ window.onload = function() {
     alert("Page loaded!");
 };
 
-
-
 function loadData() {
     var table = document.getElementById("display-table");
 
@@ -34,7 +32,7 @@ function loadData() {
         };
     };
 
-    xhr.open('GET', 'datas/datapribadi.csv', true);
+    xhr.open('GET', 'https://edric-raharjo.alwaysdata.net/api_php/datas/', true);
     xhr.send();
 
 };

@@ -13,6 +13,6 @@
         );
     };
     
-    header("Location : https://edric-raharjo.alwaysdata.net/api_php/index.html");
+    header("Location: https://edric-raharjo.alwaysdata.net/api_php/index.html");
     exit();
 ?>

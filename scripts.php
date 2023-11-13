@@ -7,7 +7,7 @@
 
     if (isset($_POST["submit"])) {
         file_put_contents(
-            "datas/test.csv",
+            "datas/datapribadi.csv",
             $information,
             FILE_APPEND 
         );

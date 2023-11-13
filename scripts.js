@@ -34,7 +34,7 @@ function loadData() {
         };
     };
 
-    xhr.open('GET', 'https://edric-raharjo.alwaysdata.net/UTS/data/', true);
+    xhr.open('GET', 'datas/datapribadi.csv', true);
     xhr.send();
 
 };

@@ -12,4 +12,7 @@
             FILE_APPEND 
         );
     };
+    
+    header("https://edric-raharjo.alwaysdata.net/api_php/index.html");
+    exit();
 ?>
